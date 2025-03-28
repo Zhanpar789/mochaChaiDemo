@@ -6,15 +6,16 @@
     "test": "mocha",
     "dummy": "npx mocha test/testApi.js",
     "apiAutomation": "npx mocha test/apiAutomation/*.js",
-    "pets": "npx mocha test/apiAutomation/petsApi.js"
+    "pets": "npx mocha test/apiAutomation/petsApi.js",
+    "products": "npx mocha test/apiAutomation/productsApi.js"
   },
   "keywords": [],
   "author": "Zhanpar",
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "chai": "^4.2.0",
+    "chai": "^4.5.0",
     "mocha": "^11.1.0",
-    "supertest": "^7.0.0"
+    "supertest": "^7.1.0"
   }
 }
